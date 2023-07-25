@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "workspaces": [
+    "castle-front"
+  ],
+  "scripts": {
+    "dev-front": "cd ./castle-front && yarn run start",
+    "build-front": "cd ./castle-front && tsc && vite build",
+    "preview-front": "cd ./castle-front && vite preview"
+  }
+}
